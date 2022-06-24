@@ -4,6 +4,7 @@
 //   and rapid page loads due to local, static data.
 
 /* eslint-disable no-console */
+/* eslint-disable import/named */
 
 import { generate, extend } from "json-schema-faker";
 import { schema } from "./mockDataSchema";

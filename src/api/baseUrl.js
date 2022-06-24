@@ -1,10 +1,10 @@
-/*eslint-disable no-useless-escape */
-
 export default function getBaseUrl() {
   return getQueryStringParameterByName("useMockApi")
     ? "http://localhost:3001/"
     : "/";
 }
+
+/* eslint-disable no-useless-escape */
 
 function getQueryStringParameterByName(name, url) {
   if (!url) url = window.location.href;
